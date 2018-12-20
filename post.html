@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:3000/postmsg" method="post" enctype="multipart/form-data">
+        <label id="name">姓名</label>
+        <input type="text" name="name" id="name"/>
+        <label id="age">年龄</label>
+        <input type="text" name="age" id="age" />
+        <label id="sex">性别</label>
+        <input type="radio" value="女" name="sex" id="sex" />女
+        <input type="radio" value="男" name="sex" id="sex" />男
+        <input type="checkbox" name="lesson" value="HTML5">HTML5
+        <input type="checkbox" name="lesson" value="NodeJS">NodeJS
+        <input type="checkbox" name="lesson" value="React">React
+        <label id="img">图片上传</label>
+        <input type="file"  name="avatar">
+        <input type="submit" >
+    </form>
+</body>
+</html>
